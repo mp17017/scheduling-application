@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Scheduling Application",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
