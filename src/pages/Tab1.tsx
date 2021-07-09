@@ -42,11 +42,11 @@ const Tab1: React.FC = () => {
         </IonItem>
         <IonItem lines="none">
         <IonInput id={`Register${id}`} placeholder="Early Reg #" ></IonInput>
-        <IonRange dualKnobs={true}  pin={true}  min={700} max={1900} step={25} snaps={true} ticks={true} color="secondary"  />
+        <IonRange dualKnobs={true}  pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary"  />
         </IonItem>
         <IonItem lines="none">
         <IonInput id={`Register2${id}`} placeholder="Late Reg #" ></IonInput>
-        <IonRange dualKnobs={true} pin={true}  min={700} max={1900} step={25} snaps={true} ticks={true} color="secondary" />
+        <IonRange dualKnobs={true} pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary" />
         </IonItem>
         <IonItem>
         <IonTextarea id={`textArea${id}`} placeholder="Complicated Notes" ></IonTextarea>
