@@ -15,7 +15,7 @@ const Tab1: React.FC = () => {
             <IonTitle>Register Organization</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonContent>
+        <IonContent fullscreen>
         
           <IonList>
             <IonItemDivider>Note: Time is in quarterly military time.
@@ -26,6 +26,11 @@ const Tab1: React.FC = () => {
             <IonItem>
             <IonButton color="primary" onClick={()=>setCommittedFieldsToAdd(inputfieldsToAdd)}>Add Cashier</IonButton>
             </IonItem>
+            <IonLabel>Coverage Map</IonLabel>
+            <IonItem>
+              {committedFieldsToAdd > 0 ? [...Array(committedFieldsToAdd)].map((value: number, index: number) => (<Counter id={index + 1} key={index} />)):
+            <IonLabel color="danger">Number of Cashiers must be positive</IonLabel>}
+            </IonItem>
             {committedFieldsToAdd > 0 ? [...Array(committedFieldsToAdd)].map((value: number, index: number) => (<Field id={index + 1} key={index} />)):
             <IonLabel color="danger">Number of Cashiers must be positive</IonLabel>}
           </IonList>
@@ -33,6 +38,12 @@ const Tab1: React.FC = () => {
       </IonPage>
     ); 
   };
+
+  const Counter = ({ id }: {id: number}) => (
+    <div className="rangeCounter">
+      <IonLabel>hi</IonLabel>
+    </div>
+  );
 
   const Field = ({ id }: { id: number }) => (
     <div className="slidecontainer">
@@ -42,11 +53,11 @@ const Tab1: React.FC = () => {
         </IonItem>
         <IonItem lines="none">
         <IonInput id={`Register${id}`} placeholder="Early Reg #" ></IonInput>
-        <IonRange dualKnobs={true}  pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary"  />
+        <IonRange id={`FCoverage${id}`} dualKnobs={true}  pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary"  />
         </IonItem>
         <IonItem lines="none">
         <IonInput id={`Register2${id}`} placeholder="Late Reg #" ></IonInput>
-        <IonRange dualKnobs={true} pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary" />
+        <IonRange id={`LCoverage${id}`} dualKnobs={true} pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary" />
         </IonItem>
         <IonItem>
         <IonTextarea id={`textArea${id}`} placeholder="Complicated Notes" ></IonTextarea>
