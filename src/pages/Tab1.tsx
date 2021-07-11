@@ -21,16 +21,16 @@ const Tab1: React.FC = () => {
             <IonItemDivider>Note: Time is in quarterly military time.
             </IonItemDivider>
             <IonItemDivider>
-            <input type="number" value={inputfieldsToAdd} onChange={(e) => setInputfieldsToAdd(parseInt(e.currentTarget.value, 10))}/>
+            <IonInput type="number" value={inputfieldsToAdd} onIonChange={(e) => setInputfieldsToAdd(parseInt(e.detail.value!, 10))}/>
             </IonItemDivider>
             <IonItem>
             <IonButton color="primary" onClick={()=>setCommittedFieldsToAdd(inputfieldsToAdd)}>Add Cashier</IonButton>
             </IonItem>
-            <IonLabel>Coverage Map</IonLabel>
+            {/*<IonLabel>Coverage Map</IonLabel>
             <IonItem>
               {committedFieldsToAdd > 0 ? [...Array(committedFieldsToAdd)].map((value: number, index: number) => (<Counter id={index + 1} key={index} />)):
             <IonLabel color="danger">Number of Cashiers must be positive</IonLabel>}
-            </IonItem>
+            </IonItem>*/}
             {committedFieldsToAdd > 0 ? [...Array(committedFieldsToAdd)].map((value: number, index: number) => (<Field id={index + 1} key={index} />)):
             <IonLabel color="danger">Number of Cashiers must be positive</IonLabel>}
           </IonList>
