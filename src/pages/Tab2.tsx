@@ -142,7 +142,7 @@ const Tab2: React.FC = () => {
         <IonRow> Total Sales+: $<IonInput type="number" color="danger" placeholder="Sales +" onIonChange={(e) => uCount(2, parseInt(e.detail.value!, 10)) } ></IonInput></IonRow>
         <IonRow> Total Sales-: $<IonInput type="number" placeholder="Sales -" onIonChange={(e) => uCount(3, parseInt(e.detail.value!, 10)) } ></IonInput></IonRow>
         <IonRow> Total Wins: $<IonInput type="number" placeholder="Wins" onIonChange={(e) => uCount(4, parseInt(e.detail.value!, 10)) } ></IonInput></IonRow>
-        <IonRow>Grand Total = ${UCState[0]+UCState[1]-UCState[2]-UCState[3]+UCState[4]}</IonRow>
+        <IonRow>Grand Total = ${UCState[0]+UCState[1]-UCState[2]+UCState[3]+UCState[4]}</IonRow>
         </IonCol>
         
       </IonContent>
