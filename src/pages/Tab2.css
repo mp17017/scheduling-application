@@ -10,6 +10,11 @@ ion-grid {
     
 }
 
+ion-input{
+    height: 30px;
+    line-height: 0px;
+}
+
 .col {
     background: rgb(255, 255, 255);
     border-radius: 10px;    
@@ -17,7 +22,7 @@ ion-grid {
     border-width: 1px;
     border-color:black;
     text-align: center;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     white-space: nowrap;
 }

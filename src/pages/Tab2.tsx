@@ -51,83 +51,83 @@ const Tab2: React.FC = () => {
       <IonContent class='content2' fullscreen>
         <IonGrid >
           <IonRow >
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={e => uTix(0, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(0, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={e => uTix(0, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(0, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[0]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(1, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(1, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(1, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(1, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[1]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(2, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(2, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(2, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(2, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[2]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(3, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(3, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(3, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(3, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[3]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(4, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(4, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(4, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(4, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[4]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(5, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(5, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(5, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(5, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[5]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(6, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(6, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(6, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(6, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[6]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(7, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(7, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(7, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(7, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[7]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(8, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(8, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(8, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(8, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[8]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(9, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(9, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(9, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(9, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[9]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(10, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(10, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(10, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(10, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[10]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(11, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(11, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(11, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(11, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[11]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(12, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(12, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(12, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(12, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[12]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(13, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(13, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(13, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(13, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[13]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(14, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(14, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(14, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(14, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[14]}</IonCol>
           </IonRow>
           <IonRow>
-            <IonCol class='col'><IonInput type="number" placeholder="#Tickets" onIonChange={(e) => uTix(15, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-            <IonCol class='col'><IonInput type="number" placeholder="Value" onIonChange={(e) => uMulti(15, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="#Tickets" onIonChange={(e) => uTix(15, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Value" onIonChange={(e) => uMulti(15, parseInt(e.detail.value!, 10))}></IonInput></IonCol>
             <IonCol class='col'>{Val[15]}</IonCol>
           </IonRow>
           <IonRow>
@@ -143,22 +143,22 @@ const Tab2: React.FC = () => {
           </IonRow>
         <IonRow>
         <IonCol class='col'>Total Cash: </IonCol>
-           <IonCol class='col'><IonInput type="number" placeholder="Cash in drawer" onIonChange={(e) => uCount(1, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+           <IonCol class='col'><IonInput class='input2' type="number" placeholder="Cash in drawer" onIonChange={(e) => uCount(1, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>
         <IonCol class='col'>Total Sales-: </IonCol>
-           <IonCol class='col'><IonInput type="number" color="danger" placeholder="Sales -" onIonChange={(e) => uCount(2, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+           <IonCol class='col'><IonInput class='input2' type="number" color="danger" placeholder="Sales -" onIonChange={(e) => uCount(2, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>
         <IonCol class='col'>Total Sales+:</IonCol>
-           <IonCol class='col'><IonInput type="number" placeholder="Sales +" onIonChange={(e) => uCount(3, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+           <IonCol class='col'><IonInput class='input2' type="number" placeholder="Sales +" onIonChange={(e) => uCount(3, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>
         <IonCol class='col'>Total Wins:</IonCol>
-           <IonCol class='col'><IonInput type="number" placeholder="Wins" onIonChange={(e) => uCount(4, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+           <IonCol class='col'><IonInput class='input2' type="number" placeholder="Wins" onIonChange={(e) => uCount(4, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>
