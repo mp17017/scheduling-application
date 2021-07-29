@@ -13,3 +13,6 @@
     ion-range::part(pin) {
       transform: translate3d(0px, -24px, 0px) scale(1);
     }
+    .content1{
+      --background: #c1ffd1;
+  }

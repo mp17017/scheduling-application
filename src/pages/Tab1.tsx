@@ -15,7 +15,7 @@ const Tab1: React.FC = () => {
             <IonTitle>Register Organization</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonContent fullscreen>
+        <IonContent fullscreen class='content1'>
         
           <IonList>
             <IonItemDivider>Note: Time is in quarterly military time.
@@ -23,7 +23,7 @@ const Tab1: React.FC = () => {
             <IonItemDivider>
             <IonInput type="number" value={inputfieldsToAdd} onIonChange={(e) => setInputfieldsToAdd(parseInt(e.detail.value!, 10))}/>
             </IonItemDivider>
-            <IonItem>
+            <IonItem >
             <IonButton color="primary" onClick={()=>setCommittedFieldsToAdd(inputfieldsToAdd)}>Add Cashier</IonButton>
             </IonItem>
             {/*<IonLabel>Coverage Map</IonLabel>
@@ -47,11 +47,11 @@ const Tab1: React.FC = () => {
 
   const Field = ({ id }: { id: number }) => (
     <div className="slidecontainer">
-        <IonItem lines="none">
+        <IonItem lines="none" >
         <IonInput id={`name${id}`} placeholder="Cashier Name" ></IonInput>
         <IonInput id={`note${id}`} placeholder="Notes" ></IonInput>
         </IonItem>
-        <IonItem lines="none">
+        <IonItem lines="none" >
         <IonInput id={`Register${id}`} placeholder="Early Reg #" ></IonInput>
         <IonRange id={`FCoverage${id}`} dualKnobs={true}  pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary"  />
         </IonItem>
