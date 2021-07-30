@@ -85,9 +85,9 @@ const Tab3: React.FC = () => {
 //DSD Paperwork
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Collecting DSD Paperwork</IonTitle>
+  <IonTitle class='titlefont3'>Collecting DSD Paperwork</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>DSD paperwork will be located at the front desk usually, however, you may need to contact grocery to get it.<br /> <br /> 
 The top sheet goes into the pink bag, the rest goes into the purple bag.</p>
 </IonItem>
@@ -96,9 +96,9 @@ The top sheet goes into the pink bag, the rest goes into the purple bag.</p>
 //PaperTrail
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Paper Trail Setup</IonTitle>
+  <IonTitle class='titlefont3'>Paper Trail Setup</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Grab a standard white envelope from the drawer, write todays date, the day, (friday for example) and your initials.<br /><br />
 Throughout the night, make sure you place your paperwork into this retention envelope to be stored when you're done.</p>
 </IonItem>
@@ -107,9 +107,9 @@ Throughout the night, make sure you place your paperwork into this retention env
 //Count the Safe
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Counting the Safe</IonTitle>
+  <IonTitle class='titlefont3'>Counting the Safe</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>First, add all of the cash from the drop safe sheet, Hit subtotal. <br /><br />
 Count all change in the safe, hit subtotal. Count all bills in the safe, Total. <br /><br />
 Second, count all stamps including those in the drop safe, one band is $275, one brick is $1100, Total. <br /><br />
@@ -120,9 +120,9 @@ Finally, count all lottery, One wrap is $300.</p>
 //Accept new Money
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Accepting New Money</IonTitle>
+  <IonTitle class='titlefont3'>Accepting New Money</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
   
 <p>To accept new money, first you need to count all of the money you are recieving in the bag, be sure to use the calculator as you go. <br /> <br />
 After you've verified the money in the bag, make straps of 50 bills, examples: $50 in ones, $250 in fives $500 in tens <br/> <br/>
@@ -134,9 +134,9 @@ Your done!</p>
 //Accept new Lotto
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Accepting New Lottery</IonTitle>
+  <IonTitle class='titlefont3'>Accepting New Lottery</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Check for an orange slept stapled to the lottery invoice, if not present, ask your manager. <br/><br/>
 Count each wrap as $300, keep in mind the invoice will list them at a lower value. <br/><br/>
 Once you have added up all of the new wraps on the calculator login to the office and open bank reciept. <br/><br/>
@@ -148,9 +148,9 @@ Your done!</p>
 //Weekly Paperwork
 <IonItemGroup>
 <IonItemDivider>
-<IonTitle>Replace Weekly Paperwork</IonTitle>
+<IonTitle class='titlefont3'>Replace Weekly Paperwork</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Replace the following items in the cash office binder with new folders and new pages:<br/><br/>
 1- <br/><br/>
 2- Am and Pm safe balance sheets. <br/><br/>
@@ -167,9 +167,9 @@ Fill out the week box on each folder and stamp them.
 //Tax Exempt
 <IonItemGroup>
 <IonItemDivider>
-<IonTitle>Verify Tax Exempt</IonTitle>
+<IonTitle class='titlefont3'>Verify Tax Exempt</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Counting tax exempt is a time consuming task, it's important to take care of it early, and maintain it throughout the night as new entries are added.<br/>
 1- On the computer, open the [NAME].<br/>
 2- Select the top 7 items on the list, these are the past 7 days of items.<br/>
@@ -213,9 +213,9 @@ Try not to get stuck on this, these things can happen.
 //157 Setup one
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>157 Initial Setup</IonTitle>
+  <IonTitle class='titlefont3'>157 Initial Setup</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>First, make sure that the scratch pad on the computer is empty, if it has any amount in it, clear it by entering the amount shown <br/><br/>
 Grab one tray each of quarters, dimes, nickles, and pennies, Set them aside inside the safe if they fit, or on the counter if they don't <br/><br/>
 Grab three straps of ones, one strap of fives, and one strap of tens, and set them aside as well <br/><br/> 
@@ -228,9 +228,9 @@ While counting, do not add to, subtract from, or lose any of the set aside curre
 //Overlimit
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Viewing Over Limit Report</IonTitle>
+  <IonTitle class='titlefont3'>Viewing Over Limit Report</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>The Over limit report shows the amount of money in each till, this will help you decide what to pick up first. <br/><br/>
 Any line till over $600 can be consider 'fat' and should be picked up sooner rather than later. <br/><br/>
 Front Service tills should be picked up as soon as possible as they typically contain $2000 or more. <br/><br/>
@@ -241,9 +241,9 @@ On the Paper Till List, mark fat tills with an F for your reference.</p>
 //Paper Till Setup
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Paper Till List Setup</IonTitle>
+  <IonTitle class='titlefont3'>Paper Till List Setup</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>This is simply a list of tills to keep you on track for the evening and to communicate to the front end what tills they can use. <br/><br/>
 On a sticky-note, make a list from 1 to 8, then 151, and 152. These are the tills available. <br/><br/>
 Take a moment to view the schedule and mark any tills that will be in use after 7pm with the time the cashier leaves that till. <br/><br/>
@@ -254,9 +254,9 @@ Finally, it's good practice to note down your paper work tasks, such as Western 
 //Till Counting
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Counting Tills</IonTitle>
+  <IonTitle class='titlefont3'>Counting Tills</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>When counting tills, you should be careful not to mix any of the currency from that till with your scratch pad until you have finished. <br/><br/>
 1- When collecting the till, ensure that you print a till report and also grab the coupon bag at the register. <br/>
 2- On the calculator type the tills number (EX: 104) and hit ref. <br/>
@@ -278,9 +278,9 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 //157.1 to 157.2
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Counting and setting up 157.1/157.2</IonTitle>
+  <IonTitle class='titlefont3'>Counting and setting up 157.1/157.2</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>1- On the calculator type 157.1 and hit ref. <br/>
 2- Add all of the cash in the scratch drawer on the calculator one type at a time (Ex: 20s) <br/>
 3- Add all of the cash you've set aside (Ex: Coin trays, bill straps, etc.) <br/>
@@ -297,9 +297,9 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 //Counting tills
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Counting Tills</IonTitle>
+  <IonTitle class='titlefont3'>Counting Tills</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>When counting tills, you should be careful not to mix any of the currency from that till with your scratch pad until you have finished. <br/><br/>
 1- When collecting the till, ensure that you print a till report and also grab the coupon bag at the register. <br/>
 2- On the calculator type the tills number (EX: 104) and hit ref. <br/>
@@ -321,9 +321,9 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 //157.2 to 157.3
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Counting and setting up 157.2/157.3</IonTitle>
+  <IonTitle class='titlefont3'>Counting and setting up 157.2/157.3</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>1- On the calculator type 157.2 and hit ref. <br/>
 2- Add all of the cash in the scratch drawer on the calculator one type at a time (Ex: 20s) <br/>
 3- Add all of the cash you've set aside (Ex: Coin trays, bill straps, etc.) <br/>
@@ -340,9 +340,9 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 //Performing Pickups
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Performing Pickups</IonTitle>
+  <IonTitle class='titlefont3'>Performing Pickups</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Before you exit the office, grab a spare blue bag from the shelf to collect 138. <br/>
 1- Grab 138 keys, go to the ITVM (138) use the large key to open the front panel, then the smaller key to access the cash box, collect all cash inside placing it in the blue bag then close both.<br/>
 2- For 140, take only big bills, coupons, and 20s to get the till close to $200. Write down the amount you take on the lottery sheet for your front end. <br/>
@@ -363,9 +363,9 @@ Once in the back office you can begin counting the pick ups one at a time, as yo
 //157.3
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Count 157.3</IonTitle>
+  <IonTitle class='titlefont3'>Count 157.3</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Because you only performed pickups on this run, you do not need to physically count your scratch drawer as you only added currency to it.<br/><br/>
 Simply add up the amounts you collected from each pickup as well as the amount you loaned and picked up from 157. Subtotal and subtract from the scratch pad amount, it will be zero.</p>
 </IonItem>
@@ -374,9 +374,9 @@ Simply add up the amounts you collected from each pickup as well as the amount y
 //Deposits
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Setting up Deposits</IonTitle>
+  <IonTitle class='titlefont3'>Setting up Deposits</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>1- Collect a clear check bag, white cash bag, the deposit log from the safe, a deposit slip booklet from the drawer, and a pen.<br/>
 2- On the safe deposit log, add the date on two new lines, then noting previous entries note down the information for cash and checks. <br/>
 3- On the cash line write down the deposit bag number on the white bag. Do the same for the check line and the clear bag.<br/>
@@ -389,9 +389,9 @@ Its best to perform deposits at the end of the night, ensuring no one bag is ove
 //SSCC Bags
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Check SSCC for full bags</IonTitle>
+  <IonTitle class='titlefont3'>Check SSCC for full bags</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Simply head outside and check if the red SSCC light is flashing, if it is, get the key from the front desk, open up the SSCC, remove the full bag, seal it, replace it, and take the full bag to the office.<br/><br/>
 SSCC Deposit:<br/>
 1- Place the SSCC coin bag on the counter.<br/>
@@ -412,9 +412,9 @@ SSCC Deposit:<br/>
 //Counting Tills
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Counting and Setting up tills</IonTitle>
+  <IonTitle class='titlefont3'>Counting and Setting up tills</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>When counting tills, you should be careful not to mix any of the currency from that till with your scratch pad until you have finished. <br/><br/>
 1- When collecting the till, ensure that you print a till report and also grab the coupon bag at the register. <br/>
 2- On the calculator type the tills number (EX: 104) and hit ref. <br/>
@@ -436,9 +436,9 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 // MLP for 138 and 140
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Perform MLP for 138 and 140</IonTitle>
+  <IonTitle class='titlefont3'>Perform MLP for 138 and 140</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>
   After you have counted 138 and 140 you need to perform an operation called MLP which works like so:<br/>
   1- Click miscelanious reciept on the computer.<br/>
@@ -454,9 +454,9 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 //Cash Deposit
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Setup Cash Deposit</IonTitle>
+  <IonTitle class='titlefont3'>Setup Cash Deposit</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>
   Cash deposits must not be done until 'all' tills have been counted, once you've made sure all tills are counted do the following:<br/>
   1- Count all big bills (50's and 100's) one type at a time, then add the totals together and rubberband the bills together.<br/>
@@ -480,9 +480,9 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 //Tidel
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Counting Tidel Coins</IonTitle>
+  <IonTitle class='titlefont3'>Counting Tidel Coins</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Because Saturday night represents an end of the week, it is best to either include Tidel coins with your deposit, or leave them in 157 in the safe.<br/>
 Remember to include tidel on the PM safe balancing sheet if you add them to your deposit.<br/>
 Additionally, remember to include tidel in your final count if you do not deposit them.
@@ -493,9 +493,9 @@ Additionally, remember to include tidel in your final count if you do not deposi
 //Preliminary Safe Balance.
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Balancing the Safe</IonTitle>
+  <IonTitle class='titlefont3'>Balancing the Safe</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Once you have counted all of the tills, you can balance the safe, its best to do this before you deposit to ensure accuracy.<br/><br/>
 1- Count up your cash for your deposit (See finish Deposits).<br/>
 2- Take your left-over loose coin and run them through SSCC if you haven't already using the manual inside the SSCC door, (Or count them by hand). <br/>
@@ -517,9 +517,9 @@ Common Errors include:<br/>
 //Finishing Deposits
 <IonItemGroup>
 <IonItemDivider>
-<IonTitle>Finishing Deposits</IonTitle>
+<IonTitle class='titlefont3'>Finishing Deposits</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Once you are satisfied with your prilimenary balance, you can perform your final balance.<br/><br/>
 Checks:<br/>
 1- On the computer, open the deposit menu.<br/>
@@ -554,9 +554,9 @@ Cash:<br/>
 //Reports
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>WU, MO, and SSCC Reports</IonTitle>
+  <IonTitle class='titlefont3'>WU, MO, and SSCC Reports</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>After the store closes you can verify these reports, do not verify these reports before the store closes.<br/>
 1- At store close, you can collect all of the reports at once.<br/>
 2- The Western Union report can be found under other/transaction log on the western union page.<br/>
@@ -603,9 +603,9 @@ Note: Before you head to the back, you need to cash out the service fee.<br/>
 //Locking Tills
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Lock Tills</IonTitle>
+  <IonTitle class='titlefont3'>Lock Tills</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Once all tills have been picked up and built, you can perform locking.<br/>
 1- Check for 'unrecalled saved orders' print them out.<br/>
 2- 'Remote log off' all cashiers if any are still logged in, including yourself.<br/>
@@ -617,9 +617,9 @@ Note: Before you head to the back, you need to cash out the service fee.<br/>
 //Voucher Report
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Checking Vouchers</IonTitle>
+  <IonTitle class='titlefont3'>Checking Vouchers</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>1- On the computer select the voucher report, in the new window select weekly, and click print.<br />
 2- Use the printed report to verify that the vouchers inside the tan voucher folder have all been entered correctly.<br />
 3- If any are incorrect, you can enter them into the voucher screen now.<br />
@@ -635,9 +635,9 @@ Note: Before you head to the back, you need to cash out the service fee.<br/>
 //Vendor Coupons
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Vendor Coupons</IonTitle>
+  <IonTitle class='titlefont3'>Vendor Coupons</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>1- Remove the vendor coupon bag from the wall and replace it with a new one so you don't forget.<br />
 2- On the computer, open the daily sales window.<br />
 3- On the first page, look for a line that reads 'vendor coupons' and write the total on the bag.<br />
@@ -653,9 +653,9 @@ Note: You do not enter the vendor coupons total anywhere on the computer, its al
 //Final balance
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Final Balance</IonTitle>
+  <IonTitle class='titlefont3'>Final Balance</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>At this point the safe is almost balanced for you already, but there are a few more things to count.<br/><br/>
 Cash:<br/>
 1- Using the PM safe balancing worksheet, add all tills including 140 together seperating 140, 151, 152, and Line tills.<br/>
@@ -693,9 +693,9 @@ Other:<br/>
 //Safe Declaration
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Safe Decleration and Locking</IonTitle>
+  <IonTitle class='titlefont3'>Safe Decleration and Locking</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>To perform safe Decleration enter the amounts from the PM safe balancing work sheet.<br/>
 Before you hit apply, write the total at the bottom of the window on the Safe Balancing work sheet.<br/><br/>
 After declaring, you can immediately perform a safe lock. The physical safe itself does not need to be locked for this, you aren't going to set off any alarms.<br/>
@@ -711,9 +711,9 @@ To safe lock:<br/>
  //Final Reports
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Final Reports</IonTitle>
+  <IonTitle class='titlefont3'>Final Reports</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>The last reports you need to do are a final TFCA, the Over/Short, Deposits, and the Safe Report that already printed.<br/><br/>
 Note: Deposits are printed from the accounting activity audit report window.<br/>
 1- Hole punch all four reprts.<br/>
@@ -727,9 +727,9 @@ Note: Deposits are printed from the accounting activity audit report window.<br/
 //Making Copies
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Making Copies</IonTitle>
+  <IonTitle class='titlefont3'>Making Copies</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>The items you need to make copies of are the folling:<br />
 All tax exempt paperwork<br />
 Both sides of the Western Union envelope.<br />
@@ -750,9 +750,9 @@ Once you've gathered these you can go to the nearest printer with copying capabi
 //Storing paper trail
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Storing Paper Trail</IonTitle>
+  <IonTitle class='titlefont3'>Storing Paper Trail</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>Ensure that all other paperwork is in your retention envelope.<br/>
 Seal the retention envelope and set it aside for weekly retention.<br/><br/>
 Note: There should be 'no' paperwork outside of your retention envelope, paperwork may be lost if not inside the envelope.</p>
@@ -762,9 +762,9 @@ Note: There should be 'no' paperwork outside of your retention envelope, paperwo
 //Weekly Retention
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Weekly Retention</IonTitle>
+  <IonTitle class='titlefont3'>Weekly Retention</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>The weekly retention folders are located in the same drawer as the brinks logs and other folders in the very back.<br/>
 1- Verify that you've collected all of the items to be stored that are listed on the envelope itself. locate missing items.<br/>
 2- Write down the week number and check off items on the front.<br/>
@@ -788,9 +788,9 @@ Storing weekly retention:
 //Checking and storing mail bags.
 <IonItemGroup>
 <IonItemDivider>
-  <IonTitle>Storing Paper Trail</IonTitle>
+  <IonTitle class='titlefont3'>Storing Paper Trail</IonTitle>
 </IonItemDivider>
-<IonItem lines="none">
+<IonItem class='textfont3' lines="none">
 <p>
   1- Verify that the pink mail bag contains the DSD paperwork from earlier, except the front sheet.<br/>
   2- Verify that the purple mail bag contains all of the items you copied, as well as the front page of the DSD paperwork, and any mail items from the mail slot.<br/>
@@ -809,9 +809,9 @@ Storing weekly retention:
       //PaperTrail
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Paper Trail Setup</IonTitle>
+        <IonTitle class='titlefont3'>Paper Trail Setup</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Grab a standard white envelope from the drawer, write todays date, the day, (friday for example) and your initials.<br /><br />
       Throughout the night, make sure you place your paperwork into this retention envelope to be stored when you're done.</p>
       </IonItem>
@@ -820,9 +820,9 @@ Storing weekly retention:
       //Count the Safe
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Counting the Safe</IonTitle>
+        <IonTitle class='titlefont3'>Counting the Safe</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>First, add all of the cash from the drop safe sheet, Hit subtotal. <br /><br />
       Count all change in the safe, hit subtotal. Count all bills in the safe, Total. <br /><br />
       Second, count all stamps including those in the drop safe, one band is $275, one brick is $1100, Total. <br /><br />
@@ -833,9 +833,9 @@ Storing weekly retention:
       //Accept new Money
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Accepting New Money</IonTitle>
+        <IonTitle class='titlefont3'>Accepting New Money</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
         
       <p>To accept new money, first you need to count all of the money you are recieving in the bag, be sure to use the calculator as you go. <br /> <br />
       After you've verified the money in the bag, make straps of 50 bills, examples: $50 in ones, $250 in fives $500 in tens <br/> <br/>
@@ -847,9 +847,9 @@ Storing weekly retention:
       //Accept new Lotto
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Accepting New Lottery</IonTitle>
+        <IonTitle class='titlefont3'>Accepting New Lottery</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Check for an orange slept stapled to the lottery invoice, if not present, ask your manager. <br/><br/>
       Count each wrap as $300, keep in mind the invoice will list them at a lower value. <br/><br/>
       Once you have added up all of the new wraps on the calculator login to the office and open bank reciept. <br/><br/>
@@ -861,9 +861,9 @@ Storing weekly retention:
       //157 Setup one
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>157 Initial Setup</IonTitle>
+        <IonTitle class='titlefont3'>157 Initial Setup</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>First, make sure that the scratch pad on the computer is empty, if it has any amount in it, clear it by entering the amount shown <br/><br/>
       Grab one tray each of quarters, dimes, nickles, and pennies, Set them aside inside the safe if they fit, or on the counter if they don't <br/><br/>
       Grab three straps of ones, one strap of fives, and one strap of tens, and set them aside as well <br/><br/> 
@@ -876,9 +876,9 @@ Storing weekly retention:
       //Overlimit
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Viewing Over Limit Report</IonTitle>
+        <IonTitle class='titlefont3'>Viewing Over Limit Report</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>The Over limit report shows the amount of money in each till, this will help you decide what to pick up first. <br/><br/>
       Any line till over $600 can be consider 'fat' and should be picked up sooner rather than later. <br/><br/>
       Front Service tills should be picked up as soon as possible as they typically contain $2000 or more. <br/><br/>
@@ -889,9 +889,9 @@ Storing weekly retention:
       //Paper Till Setup
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Paper Till List Setup</IonTitle>
+        <IonTitle class='titlefont3'>Paper Till List Setup</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>This is simply a list of tills to keep you on track for the evening and to communicate to the front end what tills they can use. <br/><br/>
       On a sticky-note, make a list from 1 to 8, then 151, and 152. These are the tills available. <br/><br/>
       Take a moment to view the schedule and mark any tills that will be in use after 7pm with the time the cashier leaves that till. <br/><br/>
@@ -902,9 +902,9 @@ Storing weekly retention:
       //Till Counting
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Counting Tills</IonTitle>
+        <IonTitle class='titlefont3'>Counting Tills</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>When counting tills, you should be careful not to mix any of the currency from that till with your scratch pad until you have finished. <br/><br/>
       1- When collecting the till, ensure that you print a till report and also grab the coupon bag at the register. <br/>
       2- On the calculator type the tills number (EX: 104) and hit ref. <br/>
@@ -926,9 +926,9 @@ Storing weekly retention:
       //157.1 to 157.2
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Counting and setting up 157.1/157.2</IonTitle>
+        <IonTitle class='titlefont3'>Counting and setting up 157.1/157.2</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>1- On the calculator type 157.1 and hit ref. <br/>
       2- Add all of the cash in the scratch drawer on the calculator one type at a time (Ex: 20s) <br/>
       3- Add all of the cash you've set aside (Ex: Coin trays, bill straps, etc.) <br/>
@@ -945,9 +945,9 @@ Storing weekly retention:
       //Counting tills
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Counting Tills</IonTitle>
+        <IonTitle class='titlefont3'>Counting Tills</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>When counting tills, you should be careful not to mix any of the currency from that till with your scratch pad until you have finished. <br/><br/>
       1- When collecting the till, ensure that you print a till report and also grab the coupon bag at the register. <br/>
       2- On the calculator type the tills number (EX: 104) and hit ref. <br/>
@@ -969,9 +969,9 @@ Storing weekly retention:
       //157.2 to 157.3
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Counting and setting up 157.2/157.3</IonTitle>
+        <IonTitle class='titlefont3'>Counting and setting up 157.2/157.3</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>1- On the calculator type 157.2 and hit ref. <br/>
       2- Add all of the cash in the scratch drawer on the calculator one type at a time (Ex: 20s) <br/>
       3- Add all of the cash you've set aside (Ex: Coin trays, bill straps, etc.) <br/>
@@ -988,9 +988,9 @@ Storing weekly retention:
       //Performing Pickups
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Performing Pickups</IonTitle>
+        <IonTitle class='titlefont3'>Performing Pickups</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Before you exit the office, grab a spare blue bag from the shelf to collect 138. <br/>
       1- Grab 138 keys, go to the ITVM (138) use the large key to open the front panel, then the smaller key to access the cash box, collect all cash inside placing it in the blue bag then close both.<br/>
       2- For 140, take only big bills, coupons, and 20s to get the till close to $200. Write down the amount you take on the lottery sheet for your front end. <br/>
@@ -1011,9 +1011,9 @@ Storing weekly retention:
       //157.3
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Count 157.3</IonTitle>
+        <IonTitle class='titlefont3'>Count 157.3</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Because you only performed pickups on this run, you do not need to physically count your scratch drawer as you only added currency to it.<br/><br/>
       Simply add up the amounts you collected from each pickup as well as the amount you loaned and picked up from 157. Subtotal and subtract from the scratch pad amount, it will be zero.</p>
       </IonItem>
@@ -1022,9 +1022,9 @@ Storing weekly retention:
       //Deposits
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Setting up Deposits</IonTitle>
+        <IonTitle class='titlefont3'>Setting up Deposits</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>1- Collect a clear check bag, white cash bag, the deposit log from the safe, a deposit slip booklet from the drawer, and a pen.<br/>
       2- On the safe deposit log, add the date on two new lines, then noting previous entries note down the information for cash and checks. <br/>
       3- On the cash line write down the deposit bag number on the white bag. Do the same for the check line and the clear bag.<br/>
@@ -1037,9 +1037,9 @@ Storing weekly retention:
       //SSCC Bags
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Check SSCC for full bags</IonTitle>
+        <IonTitle class='titlefont3'>Check SSCC for full bags</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Simply head outside and check if the red SSCC light is flashing, if it is, get the key from the front desk, open up the SSCC, remove the full bag, seal it, replace it, and take the full bag to the office.<br/><br/>
       SSCC Deposit:<br/>
       1- Place the SSCC coin bag on the counter.<br/>
@@ -1060,9 +1060,9 @@ Storing weekly retention:
       //Counting Tills
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Counting and Setting up tills</IonTitle>
+        <IonTitle class='titlefont3'>Counting and Setting up tills</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>When counting tills, you should be careful not to mix any of the currency from that till with your scratch pad until you have finished. <br/><br/>
       1- When collecting the till, ensure that you print a till report and also grab the coupon bag at the register. <br/>
       2- On the calculator type the tills number (EX: 104) and hit ref. <br/>
@@ -1084,9 +1084,9 @@ Storing weekly retention:
       // MLP for 138 and 140
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Perform MLP for 138 and 140</IonTitle>
+        <IonTitle class='titlefont3'>Perform MLP for 138 and 140</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>
         After you have counted 138 and 140 you need to perform an operation called MLP which works like so:<br/>
         1- Click miscelanious reciept on the computer.<br/>
@@ -1102,9 +1102,9 @@ Storing weekly retention:
       //Cash Deposit
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Setup Cash Deposit</IonTitle>
+        <IonTitle class='titlefont3'>Setup Cash Deposit</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>
         Cash deposits must not be done until 'all' tills have been counted, once you've made sure all tills are counted do the following:<br/>
         1- Count all big bills (50's and 100's) one type at a time, then add the totals together and rubberband the bills together.<br/>
@@ -1128,9 +1128,9 @@ Storing weekly retention:
       //Tidel
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Tidel to SSCC</IonTitle>
+        <IonTitle class='titlefont3'>Tidel to SSCC</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>At the end of the night, you have two options for handling loose coin in 157. You can deposit it with the rest of your money, or you can put it in SSCC.<br/>
       In this case, we want to put coins in SSCC.<br/>
       1- Take the 157 drawer out to the SSCC machine, remember to get the SSCC key.<br/>
@@ -1147,9 +1147,9 @@ Storing weekly retention:
       //Preliminary Safe Balance.
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Balancing the Safe</IonTitle>
+        <IonTitle class='titlefont3'>Balancing the Safe</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Once you have counted all of the tills, you can balance the safe, its best to do this before you deposit to ensure accuracy.<br/><br/>
       1- Count up your cash for your deposit (See finish Deposits).<br/>
       2- Take your left-over loose coin and run them through SSCC if you haven't already using the manual inside the SSCC door, (Or count them by hand). <br/>
@@ -1171,9 +1171,9 @@ Storing weekly retention:
       //Finishing Deposits
       <IonItemGroup>
       <IonItemDivider>
-      <IonTitle>Finishing Deposits</IonTitle>
+      <IonTitle class='titlefont3'>Finishing Deposits</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Once you are satisfied with your prilimenary balance, you can perform your final balance.<br/><br/>
       Checks:<br/>
       1- On the computer, open the deposit menu.<br/>
@@ -1208,9 +1208,9 @@ Storing weekly retention:
       //Reports
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>WU, MO, and SSCC Reports</IonTitle>
+        <IonTitle class='titlefont3'>WU, MO, and SSCC Reports</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>After the store closes you can verify these reports, do not verify these reports before the store closes.<br/>
       1- At store close, you can collect all of the reports at once.<br/>
       2- The Western Union report can be found under other/transaction log on the western union page.<br/>
@@ -1257,9 +1257,9 @@ Storing weekly retention:
       //Locking Tills
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Lock Tills</IonTitle>
+        <IonTitle class='titlefont3'>Lock Tills</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Once all tills have been picked up and built, you can perform locking.<br/>
       1- Check for 'unrecalled saved orders' print them out.<br/>
       2- 'Remote log off' all cashiers if any are still logged in, including yourself.<br/>
@@ -1271,9 +1271,9 @@ Storing weekly retention:
       //Final balance
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Final Balance</IonTitle>
+        <IonTitle class='titlefont3'>Final Balance</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>At this point the safe is almost balanced for you already, but there are a few more things to count.<br/><br/>
       Cash:<br/>
       1- Using the PM safe balancing worksheet, add all tills including 140 together seperating 140, 151, 152, and Line tills.<br/>
@@ -1311,9 +1311,9 @@ Storing weekly retention:
       //Safe Declaration
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Safe Decleration and Locking</IonTitle>
+        <IonTitle class='titlefont3'>Safe Decleration and Locking</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>To perform safe Decleration enter the amounts from the PM safe balancing work sheet.<br/>
       Before you hit apply, write the total at the bottom of the window on the Safe Balancing work sheet.<br/><br/>
       After declaring, you can immediately perform a safe lock. The physical safe itself does not need to be locked for this, you aren't going to set off any alarms.<br/>
@@ -1329,9 +1329,9 @@ Storing weekly retention:
        //Final Reports
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Final Reports</IonTitle>
+        <IonTitle class='titlefont3'>Final Reports</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>The last reports you need to do are a final TFCA, the Over/Short, Deposits, and the Safe Report that already printed.<br/><br/>
       Note: Deposits are printed from the accounting activity audit report window.<br/>
       1- Hole punch all four reprts.<br/>
@@ -1345,9 +1345,9 @@ Storing weekly retention:
       //Storing paper trail
       <IonItemGroup>
       <IonItemDivider>
-        <IonTitle>Storing Paper Trail</IonTitle>
+        <IonTitle class='titlefont3'>Storing Paper Trail</IonTitle>
       </IonItemDivider>
-      <IonItem lines="none">
+      <IonItem class='textfont3' lines="none">
       <p>Ensure that all other paperwork is in your retention envelope.<br/>
       Seal the retention envelope and place it in the retention drawer in the slot for todays day.<br/><br/>
       Note: There should be 'no' paperwork outside of your retention envelope, paperwork may be lost if not inside the envelope.</p>
@@ -1372,7 +1372,7 @@ Storing weekly retention:
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Closer Tasks for {DoW[Day]}</IonTitle>
+          <IonTitle class='titlefont3'>Closer Tasks for {DoW[Day]}</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -1380,14 +1380,14 @@ Storing weekly retention:
           <IonItem key={i} class ='item2'>
             <IonButton onClick={() => ModalMaker(i)}>Help</IonButton>  
             <IonLabel>{val}</IonLabel>
-            <IonCheckbox slot="end" value={val} checked={isChecked} />
+            <IonCheckbox slot="end" value={val} checked={isChecked} color="tertiary" />
           </IonItem>
         )): 
         checkboxListWeekDay.map(({ val, isChecked}, i) => (          
           <IonItem key={i} class ='item2'>
             <IonButton onClick={() => ModalMaker(i)}>Help</IonButton>  
             <IonLabel>{val}</IonLabel>                         
-            <IonCheckbox slot="end" value={val} checked={isChecked} />
+            <IonCheckbox slot="end" value={val} checked={isChecked} color="tertiary" />
             
           </IonItem>))}
       <IonModal isOpen={showModal} cssClass='model' backdropDismiss={false} >

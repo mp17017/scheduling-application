@@ -1,19 +1,21 @@
 .content2{
     --background: #c1ffd1;
-}
+    --color: black;
+  }
 
 ion-grid {
     
     --ion-grid-padding: 0px;
     --ion-grid-column-padding: 0px;
     --ion-grid-columns: 3;
-    
-}
+    --color: black;
+  }
 
-ion-input{
+.input2{
     height: 30px;
     line-height: 0px;
-}
+    --color: black;
+  }
 
 .col {
     background: rgb(255, 255, 255);
@@ -25,4 +27,5 @@ ion-input{
     height: 30px;
     line-height: 30px;
     white-space: nowrap;
-}
+    --color: black;
+  }
