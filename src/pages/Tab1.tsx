@@ -9,21 +9,21 @@ const Tab1: React.FC = () => {
 
     
     return (
-      <IonPage>
-        <IonHeader>
-          <IonToolbar>
-            <IonTitle>Register Organization</IonTitle>
+      <IonPage >
+        <IonHeader >
+          <IonToolbar class='textback1'>
+            <IonTitle class='titlefont1'>Register Organization</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent fullscreen class='content1'>
         
-          <IonList>
+          <IonList class='textback1'>
             <IonItemDivider class='textfont1'>Note: Time is in quarterly military time.
             </IonItemDivider>
-            <IonItemDivider>
+            <IonItemDivider class='textback1'>
             <IonInput class='textfont1' type="number" value={inputfieldsToAdd} onIonChange={(e) => setInputfieldsToAdd(parseInt(e.detail.value!, 10))}/>
             </IonItemDivider>
-            <IonItem >
+            <IonItem class='textback1'>
             <IonButton color="primary" onClick={()=>setCommittedFieldsToAdd(inputfieldsToAdd)}>Add Cashier</IonButton>
             </IonItem>
             {/*<IonLabel>Coverage Map</IonLabel>
@@ -39,27 +39,22 @@ const Tab1: React.FC = () => {
     ); 
   };
 
-  const Counter = ({ id }: {id: number}) => (
-    <div className="rangeCounter">
-      <IonLabel>hi</IonLabel>
-    </div>
-  );
 
   const Field = ({ id }: { id: number }) => (
     <div className="slidecontainer">
-        <IonItem lines="none" >
+        <IonItem class='textback1'lines="none" >
         <IonInput class='textfont1' id={`name${id}`} placeholder="Cashier Name" ></IonInput>
         <IonInput class='textfont1' id={`note${id}`} placeholder="Notes" ></IonInput>
         </IonItem>
-        <IonItem lines="none" >
+        <IonItem class='textback1'lines="none" >
         <IonInput class='textfont1' id={`Register${id}`} placeholder="Early Reg #" ></IonInput>
         <IonRange class='textfont1' id={`FCoverage${id}`} dualKnobs={true}  pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary"  />
         </IonItem>
-        <IonItem lines="none">
+        <IonItem class='textback1'lines="none" >
         <IonInput class='textfont1' id={`Register2${id}`} placeholder="Late Reg #" ></IonInput>
         <IonRange class='textfont1' id={`LCoverage${id}`} dualKnobs={true} pin={true}  min={700} max={2100} step={25} snaps={true} ticks={true} color="secondary" />
         </IonItem>
-        <IonItem>
+        <IonItem class='textback1'>
         <IonTextarea class='textfont1' id={`textArea${id}`} placeholder="Complicated Notes" ></IonTextarea>
         </IonItem>
     </div>

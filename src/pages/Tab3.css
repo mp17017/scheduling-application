@@ -5,8 +5,22 @@
 
 .titlefont3{
     --color: grey;
+    
 }
 
 .textfont3{
     --color: black;
+    --background:white;
+    background:white;
+}
+
+.textback3{
+    --background:white;
+    background:white;
+}
+
+.checkbox{
+    --background:white;
+    background:white;
+    --border-color:grey;
 }

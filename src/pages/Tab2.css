@@ -29,3 +29,13 @@ ion-grid {
     white-space: nowrap;
     --color: black;
   }
+  .titlefont2{
+    --color: grey;
+    
+}
+
+  .textback2{
+    --background:white;
+    background:white;
+
+}

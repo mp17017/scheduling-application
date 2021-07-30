@@ -84,7 +84,7 @@ const Tab3: React.FC = () => {
 
 //DSD Paperwork
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Collecting DSD Paperwork</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -95,7 +95,7 @@ The top sheet goes into the pink bag, the rest goes into the purple bag.</p>
 
 //PaperTrail
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Paper Trail Setup</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -106,7 +106,7 @@ Throughout the night, make sure you place your paperwork into this retention env
 
 //Count the Safe
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Counting the Safe</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -119,7 +119,7 @@ Finally, count all lottery, One wrap is $300.</p>
 
 //Accept new Money
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Accepting New Money</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -133,7 +133,7 @@ Your done!</p>
 
 //Accept new Lotto
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Accepting New Lottery</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -147,7 +147,7 @@ Your done!</p>
 
 //Weekly Paperwork
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
 <IonTitle class='titlefont3'>Replace Weekly Paperwork</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -166,7 +166,7 @@ Fill out the week box on each folder and stamp them.
 
 //Tax Exempt
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
 <IonTitle class='titlefont3'>Verify Tax Exempt</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -212,7 +212,7 @@ Try not to get stuck on this, these things can happen.
 
 //157 Setup one
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>157 Initial Setup</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -227,7 +227,7 @@ While counting, do not add to, subtract from, or lose any of the set aside curre
 
 //Overlimit
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Viewing Over Limit Report</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -240,7 +240,7 @@ On the Paper Till List, mark fat tills with an F for your reference.</p>
 
 //Paper Till Setup
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Paper Till List Setup</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -253,7 +253,7 @@ Finally, it's good practice to note down your paper work tasks, such as Western 
 
 //Till Counting
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Counting Tills</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -277,7 +277,7 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 
 //157.1 to 157.2
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Counting and setting up 157.1/157.2</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -296,7 +296,7 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 
 //Counting tills
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Counting Tills</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -320,7 +320,7 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 
 //157.2 to 157.3
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Counting and setting up 157.2/157.3</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -339,7 +339,7 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 
 //Performing Pickups
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Performing Pickups</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -362,7 +362,7 @@ Once in the back office you can begin counting the pick ups one at a time, as yo
 
 //157.3
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Count 157.3</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -373,7 +373,7 @@ Simply add up the amounts you collected from each pickup as well as the amount y
 
 //Deposits
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Setting up Deposits</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -388,7 +388,7 @@ Its best to perform deposits at the end of the night, ensuring no one bag is ove
 
 //SSCC Bags
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Check SSCC for full bags</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -411,7 +411,7 @@ SSCC Deposit:<br/>
 
 //Counting Tills
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Counting and Setting up tills</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -435,7 +435,7 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 
 // MLP for 138 and 140
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Perform MLP for 138 and 140</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -453,7 +453,7 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 
 //Cash Deposit
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Setup Cash Deposit</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -479,7 +479,7 @@ Front Desk tills also get an extra roll of quarters, dimes, and nickles.
 
 //Tidel
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Counting Tidel Coins</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -492,7 +492,7 @@ Additionally, remember to include tidel in your final count if you do not deposi
 
 //Preliminary Safe Balance.
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Balancing the Safe</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -516,7 +516,7 @@ Common Errors include:<br/>
 
 //Finishing Deposits
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
 <IonTitle class='titlefont3'>Finishing Deposits</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -553,7 +553,7 @@ Cash:<br/>
 
 //Reports
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>WU, MO, and SSCC Reports</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -602,7 +602,7 @@ Note: Before you head to the back, you need to cash out the service fee.<br/>
 
 //Locking Tills
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Lock Tills</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -616,7 +616,7 @@ Note: Before you head to the back, you need to cash out the service fee.<br/>
 
 //Voucher Report
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Checking Vouchers</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -634,7 +634,7 @@ Note: Before you head to the back, you need to cash out the service fee.<br/>
 
 //Vendor Coupons
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Vendor Coupons</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -652,7 +652,7 @@ Note: You do not enter the vendor coupons total anywhere on the computer, its al
 
 //Final balance
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Final Balance</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -692,7 +692,7 @@ Other:<br/>
 
 //Safe Declaration
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Safe Decleration and Locking</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -710,7 +710,7 @@ To safe lock:<br/>
  
  //Final Reports
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Final Reports</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -726,7 +726,7 @@ Note: Deposits are printed from the accounting activity audit report window.<br/
 
 //Making Copies
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Making Copies</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -749,7 +749,7 @@ Once you've gathered these you can go to the nearest printer with copying capabi
 
 //Storing paper trail
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Storing Paper Trail</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -761,7 +761,7 @@ Note: There should be 'no' paperwork outside of your retention envelope, paperwo
 
 //Weekly Retention
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Weekly Retention</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -787,7 +787,7 @@ Storing weekly retention:
 
 //Checking and storing mail bags.
 <IonItemGroup>
-<IonItemDivider>
+<IonItemDivider class = 'textback3'>
   <IonTitle class='titlefont3'>Storing Paper Trail</IonTitle>
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
@@ -808,7 +808,7 @@ Storing weekly retention:
       
       //PaperTrail
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Paper Trail Setup</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -819,7 +819,7 @@ Storing weekly retention:
       
       //Count the Safe
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Counting the Safe</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -832,7 +832,7 @@ Storing weekly retention:
       
       //Accept new Money
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Accepting New Money</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -846,7 +846,7 @@ Storing weekly retention:
       
       //Accept new Lotto
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Accepting New Lottery</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -860,7 +860,7 @@ Storing weekly retention:
       
       //157 Setup one
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>157 Initial Setup</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -875,7 +875,7 @@ Storing weekly retention:
       
       //Overlimit
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Viewing Over Limit Report</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -888,7 +888,7 @@ Storing weekly retention:
       
       //Paper Till Setup
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Paper Till List Setup</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -901,7 +901,7 @@ Storing weekly retention:
       
       //Till Counting
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Counting Tills</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -925,7 +925,7 @@ Storing weekly retention:
       
       //157.1 to 157.2
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Counting and setting up 157.1/157.2</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -944,7 +944,7 @@ Storing weekly retention:
       
       //Counting tills
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Counting Tills</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -968,7 +968,7 @@ Storing weekly retention:
       
       //157.2 to 157.3
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Counting and setting up 157.2/157.3</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -987,7 +987,7 @@ Storing weekly retention:
       
       //Performing Pickups
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Performing Pickups</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1010,7 +1010,7 @@ Storing weekly retention:
       
       //157.3
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Count 157.3</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1021,7 +1021,7 @@ Storing weekly retention:
       
       //Deposits
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Setting up Deposits</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1036,7 +1036,7 @@ Storing weekly retention:
       
       //SSCC Bags
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Check SSCC for full bags</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1059,7 +1059,7 @@ Storing weekly retention:
       
       //Counting Tills
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Counting and Setting up tills</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1083,7 +1083,7 @@ Storing weekly retention:
       
       // MLP for 138 and 140
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Perform MLP for 138 and 140</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1101,7 +1101,7 @@ Storing weekly retention:
       
       //Cash Deposit
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Setup Cash Deposit</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1127,7 +1127,7 @@ Storing weekly retention:
       
       //Tidel
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Tidel to SSCC</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1146,7 +1146,7 @@ Storing weekly retention:
       
       //Preliminary Safe Balance.
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Balancing the Safe</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1170,7 +1170,7 @@ Storing weekly retention:
       
       //Finishing Deposits
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
       <IonTitle class='titlefont3'>Finishing Deposits</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1207,7 +1207,7 @@ Storing weekly retention:
       
       //Reports
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>WU, MO, and SSCC Reports</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1256,7 +1256,7 @@ Storing weekly retention:
 
       //Locking Tills
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Lock Tills</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1270,7 +1270,7 @@ Storing weekly retention:
       
       //Final balance
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Final Balance</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1310,7 +1310,7 @@ Storing weekly retention:
       
       //Safe Declaration
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Safe Decleration and Locking</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1328,7 +1328,7 @@ Storing weekly retention:
        
        //Final Reports
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Final Reports</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1344,7 +1344,7 @@ Storing weekly retention:
       
       //Storing paper trail
       <IonItemGroup>
-      <IonItemDivider>
+      <IonItemDivider class = 'textback3'>
         <IonTitle class='titlefont3'>Storing Paper Trail</IonTitle>
       </IonItemDivider>
       <IonItem class='textfont3' lines="none">
@@ -1371,27 +1371,27 @@ Storing weekly retention:
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar class='textback3'>
           <IonTitle class='titlefont3'>Closer Tasks for {DoW[Day]}</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent fullscreen >
         {Day === 6 ? checkboxListSaturday.map(({ val, isChecked }, i) => (
           <IonItem key={i} class ='item2'>
             <IonButton onClick={() => ModalMaker(i)}>Help</IonButton>  
             <IonLabel>{val}</IonLabel>
-            <IonCheckbox slot="end" value={val} checked={isChecked} color="tertiary" />
+            <IonCheckbox class='checkbox' slot="end" value={val} checked={isChecked} color="tertiary" />
           </IonItem>
         )): 
         checkboxListWeekDay.map(({ val, isChecked}, i) => (          
           <IonItem key={i} class ='item2'>
             <IonButton onClick={() => ModalMaker(i)}>Help</IonButton>  
             <IonLabel>{val}</IonLabel>                         
-            <IonCheckbox slot="end" value={val} checked={isChecked} color="tertiary" />
+            <IonCheckbox class='checkbox' slot="end" value={val} checked={isChecked} color="tertiary"  />
             
           </IonItem>))}
       <IonModal isOpen={showModal} cssClass='model' backdropDismiss={false} >
-      <IonContent scrollY={true}>
+      <IonContent scrollY={true} class='textback3'>
         <IonLabel> {Day === 6 ? MessageListSaturday[count] : MessageListWeekday[count]} </IonLabel>
         <IonButton onClick={() => setShowModal(false)}>Close</IonButton>
         </IonContent>

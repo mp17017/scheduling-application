@@ -18,4 +18,15 @@
   }
   .textfont1{
     --color: black;
+    --background:white;
+    background:white;
+    
   }
+  .textback1{
+    --background:white;
+    background:white;
+  }
+  .titlefont1{
+    --color: grey;
+    
+}
