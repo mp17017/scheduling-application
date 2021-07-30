@@ -147,17 +147,17 @@ const Tab2: React.FC = () => {
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>
-        <IonCol class='col'>Total Online Sales: </IonCol>
+        <IonCol class='col'>Online Sales: </IonCol>
            <IonCol class='col'><IonInput class='input2' type="number" color="danger" placeholder="Sales -" onIonChange={(e) => uCount(2, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>
-        <IonCol class='col'>Total Online Cashes:</IonCol>
+        <IonCol class='col'>Online Cashes:</IonCol>
            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Sales +" onIonChange={(e) => uCount(3, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
-           <IonCol class='col'> Sales - Cash = {UCState[2]-UCState[3]}</IonCol>
+           <IonCol class='col'> S-C = {UCState[2]-UCState[3]}</IonCol>
            </IonRow>
         <IonRow>
-        <IonCol class='col'>Total Cashes:</IonCol>
+        <IonCol class='col'>Instant Cashes:</IonCol>
            <IonCol class='col'><IonInput class='input2' type="number" placeholder="Wins" onIonChange={(e) => uCount(4, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
