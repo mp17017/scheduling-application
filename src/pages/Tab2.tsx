@@ -142,7 +142,7 @@ const Tab2: React.FC = () => {
           <IonTitle class='titlefont2'>Lottery Balance Calculator</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonItemDivider>
+      <IonItemDivider class='textback2'>
       <IonButton color="primary" onClick={()=>saveLocalStorage()}>Save</IonButton>
       <IonButton color="primary" onClick={()=>loadLocalStorage()}>Load</IonButton>
       </IonItemDivider>
