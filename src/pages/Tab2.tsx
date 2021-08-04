@@ -149,9 +149,9 @@ const Tab2: React.FC = () => {
       <IonContent class='content2' fullscreen>
         <IonGrid >
         <IonRow >
-            <IonCol class='col'>Number of Tickets</IonCol>
-            <IonCol class='col'>Value of Ticket</IonCol>
-            <IonCol class='col'>Total value of Tickets</IonCol>
+            <IonCol class='col'># Tickets</IonCol>
+            <IonCol class='col'>$ Value</IonCol>
+            <IonCol class='col'>Totals</IonCol>
           </IonRow>
           <IonRow >
             <IonCol class='col'><IonInput value = {tix0} class='input2' type="number" placeholder="#Tickets"  onIonChange={e => uTix(0, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
