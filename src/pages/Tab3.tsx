@@ -1375,7 +1375,7 @@ Storing weekly retention:
           <IonTitle class='titlefont3'>Closer Tasks for {DoW[Day]}</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen >
+      <IonContent>
         {Day === 6 ? checkboxListSaturday.map(({ val, isChecked }, i) => (
           <IonItem key={i} class ='item2'>
             <IonButton onClick={() => ModalMaker(i)}>Help</IonButton>  
