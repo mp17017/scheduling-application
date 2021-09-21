@@ -246,22 +246,22 @@ const Tab2: React.FC = () => {
           </IonRow>
         <IonRow>
         <IonCol class='col'>Total Cash: </IonCol>
-           <IonCol class='col'><IonInput value = {Uc0} class='input2' type="number" placeholder="Cash in drawer" onIonChange={(e) => uCount(0, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+           <IonCol class='col'><IonInput value = {Uc0} class='input2' type="number" placeholder="Cash in drawer" onIonChange={(e) => uCount(0, parseFloat(e.detail.value!)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>
         <IonCol class='col'>Online Sales: </IonCol>
-           <IonCol class='col'><IonInput value = {Uc1} class='input2' type="number" color="danger" placeholder="Sales -" onIonChange={(e) => uCount(1, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+           <IonCol class='col'><IonInput value = {Uc1} class='input2' type="number" color="danger" placeholder="Sales -" onIonChange={(e) => uCount(1, parseFloat(e.detail.value!)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>
         <IonCol class='col'>Online Cashes:</IonCol>
-           <IonCol class='col'><IonInput value = {Uc2} class='input2' type="number" placeholder="Sales +" onIonChange={(e) => uCount(2, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+           <IonCol class='col'><IonInput value = {Uc2} class='input2' type="number" placeholder="Sales +" onIonChange={(e) => uCount(2, parseFloat(e.detail.value!)) } ></IonInput></IonCol>
            <IonCol class='col'> S-C = {Uc1-Uc2}</IonCol>
            </IonRow>
         <IonRow>
         <IonCol class='col'>Instant Cashes:</IonCol>
-           <IonCol class='col'><IonInput value = {Uc3} class='input2' type="number" placeholder="Wins" onIonChange={(e) => uCount(3, parseInt(e.detail.value!, 10)) } ></IonInput></IonCol>
+           <IonCol class='col'><IonInput value = {Uc3} class='input2' type="number" placeholder="Wins" onIonChange={(e) => uCount(3, parseFloat(e.detail.value!)) } ></IonInput></IonCol>
            <IonCol ></IonCol>
            </IonRow>
         <IonRow>

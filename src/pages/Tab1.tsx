@@ -29,11 +29,6 @@ const Tab1: React.FC = () => {
             <IonItem class='textback1'>
             <IonButton color="primary" onClick={()=>setCommittedFieldsToAdd(inputfieldsToAdd)}>Add Cashier</IonButton>
             </IonItem>
-            {/*<IonLabel>Coverage Map</IonLabel>
-            <IonItem>
-              {committedFieldsToAdd > 0 ? [...Array(committedFieldsToAdd)].map((value: number, index: number) => (<Counter id={index + 1} key={index} />)):
-            <IonLabel color="danger">Number of Cashiers must be positive</IonLabel>}
-            </IonItem>*/}
             {committedFieldsToAdd > 0 ? [...Array(committedFieldsToAdd)].map((value: number, index: number) => (<Field id={index + 1} key={index} />)):
             <IonLabel color="danger">Number of Cashiers must be positive</IonLabel>}
           </IonList>

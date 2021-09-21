@@ -171,11 +171,11 @@ Fill out the week box on each folder and stamp them.
 </IonItemDivider>
 <IonItem class='textfont3' lines="none">
 <p>Counting tax exempt is a time consuming task, it's important to take care of it early, and maintain it throughout the night as new entries are added.<br/>
-1- On the computer, open the [NAME].<br/>
+1- On the computer, open the electronic journal.<br/>
 2- Select the top 7 items on the list, these are the past 7 days of items.<br/>
 3- Press Select.<br/>
-4- Select item number 15 [NAME] and hit ok.<br/>
-5- Select item number 15 again [NAME] and hit ok.<br/>
+4- Select item number 15 type and hit ok.<br/>
+5- Select item number 15 again tax exempt and hit ok.<br/>
 6- Click the date button at the top of the list to sort all of the entries by date.<br/>
 7- Click print list to print out all the entries.<br/>
 8- On the back of the page that prints write down the number of tickets and the total cash amount.<br/><br/>
@@ -1375,7 +1375,7 @@ Storing weekly retention:
           <IonTitle class='titlefont3'>Closer Tasks for {DoW[Day]}</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
+      <IonContent fullscreen >
         {Day === 6 ? checkboxListSaturday.map(({ val, isChecked }, i) => (
           <IonItem key={i} class ='item2'>
             <IonButton onClick={() => ModalMaker(i)}>Help</IonButton>  
