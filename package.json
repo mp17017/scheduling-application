@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@auth0/auth0-react": "^1.6.0",
+    "@auth0/auth0-react": "^1.8.0",
     "@capacitor/app": "1.0.2",
     "@capacitor/core": "3.0.2",
     "@capacitor/haptics": "1.0.2",
@@ -15,6 +15,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
+    "@types/auth0": "^2.33.5",
     "@types/jest": "^26.0.20",
     "@types/node": "^12.19.15",
     "@types/react": "^16.14.3",

@@ -1,24 +1,10 @@
-import { Redirect, Route } from 'react-router-dom';
-import {
-  IonApp,
-  IonIcon,
-  IonLabel,
-  IonRouterOutlet,
-  IonTabBar,
-  IonTabButton,
-  IonTabs,
-} from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
-import { book, calculator, time, business } from 'ionicons/icons';
-import Tab1 from './pages/Tab1';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
-import Tab4 from './pages/Tab4';
+import Main from './components/Main';
+import LoginButton from './components/LoginButton';
 //import LogoutButton from './components/logOut';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
-
+import '@ionic/react/css/core.css';
 /* Basic CSS for apps built with Ionic */
 import '@ionic/react/css/normalize.css';
 import '@ionic/react/css/structure.css';
@@ -34,52 +20,20 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import {useAuth0} from '@auth0/auth0-react';
 
 
+
+function Authenticated(): JSX.Element{
+  const {user, isAuthenticated} = useAuth0();
+
+  if (isAuthenticated){return (<Main />)};
+  if (!isAuthenticated){return (<LoginButton />)};
+  return(<> </>);
+}
 
 const App: React.FC = () => (
-  <IonApp>
-    <IonReactRouter>
-      
-      <IonTabs>
-        <IonRouterOutlet>
-          <Route exact path="/tab1">
-            <Tab1 />
-          </Route>
-          <Route exact path="/tab2">
-            <Tab2 />
-          </Route>
-          <Route exact path="/tab3">
-            <Tab3 />
-          </Route>
-          <Route exact path="/tab4">
-            <Tab4 />
-          </Route>
-          <Route exact path="/">
-            <Redirect to="/tab1" />
-          </Route>
-        </IonRouterOutlet>
-        <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon icon={time} />
-            <IonLabel>Cashiers</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={calculator} />
-            <IonLabel>Lottery</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={business} />
-            <IonLabel>Office</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab="tab4" href="/tab4">
-            <IonIcon icon={book} />
-            <IonLabel>Notes</IonLabel>
-          </IonTabButton>
-        </IonTabBar>
-      </IonTabs>
-    </IonReactRouter>
-  </IonApp>
+  <Authenticated />
 );
 
 export default App;

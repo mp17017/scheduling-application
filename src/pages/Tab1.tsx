@@ -7,9 +7,6 @@ const Tab1: React.FC = () => {
 
     const [inputfieldsToAdd, setInputfieldsToAdd] = React.useState(1);
     const [committedFieldsToAdd, setCommittedFieldsToAdd] = React.useState(1);
-
-    
-
     
     return (
       <IonPage >
