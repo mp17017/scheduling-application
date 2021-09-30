@@ -3,8 +3,8 @@
     "static/js/0.84fa14c5.chunk.js": "/scheduling-application/static/js/0.84fa14c5.chunk.js",
     "static/js/0.84fa14c5.chunk.js.map": "/scheduling-application/static/js/0.84fa14c5.chunk.js.map",
     "main.css": "/scheduling-application/static/css/main.d86bcdb4.chunk.css",
-    "main.js": "/scheduling-application/static/js/main.0d39c3bd.chunk.js",
-    "main.js.map": "/scheduling-application/static/js/main.0d39c3bd.chunk.js.map",
+    "main.js": "/scheduling-application/static/js/main.3c6e0048.chunk.js",
+    "main.js.map": "/scheduling-application/static/js/main.3c6e0048.chunk.js.map",
     "polyfills-dom.js": "/scheduling-application/static/js/polyfills-dom.44d09293.chunk.js",
     "polyfills-dom.js.map": "/scheduling-application/static/js/polyfills-dom.44d09293.chunk.js.map",
     "runtime-main.js": "/scheduling-application/static/js/runtime-main.b4e6a39d.js",
@@ -134,6 +134,6 @@
     "static/css/4.7bc06244.chunk.css",
     "static/js/4.c1485213.chunk.js",
     "static/css/main.d86bcdb4.chunk.css",
-    "static/js/main.0d39c3bd.chunk.js"
+    "static/js/main.3c6e0048.chunk.js"
   ]
 }
