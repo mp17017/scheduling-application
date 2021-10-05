@@ -1,5 +1,5 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage,  IonTitle, IonLabel, IonToolbar, IonInput, IonCheckbox, IonItem, IonButton, IonTextarea, IonGrid, IonRow, IonCol, IonModal, IonItemGroup, IonItemDivider, IonSegment} from '@ionic/react';
+import { IonContent, IonHeader, IonPage,  IonTitle, IonLabel, IonToolbar, IonInput, IonItem, IonButton, IonTextarea} from '@ionic/react';
 import './Tab4.css';
 import { forceUpdate } from 'ionicons/dist/types/stencil-public-runtime';
 
