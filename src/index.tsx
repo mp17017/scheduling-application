@@ -10,6 +10,7 @@ ReactDOM.render(
   <Auth0Provider
   domain={"dev-be3f-gk8.us.auth0.com"}
   clientId={"iLPr2pj1YbjS0xL7AEBNVx7gngDzhxXH"}
+  //redirectUri={"http://localhost:8100/"
   redirectUri={"https://mp17017.github.io/scheduling-application/"}>
     <App />
   </Auth0Provider>,

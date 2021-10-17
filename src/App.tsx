@@ -32,6 +32,8 @@ function Authenticated(): JSX.Element{
   return(<> </>);
 }
 
+
+
 const App: React.FC = () => (
   <Authenticated />
 );
